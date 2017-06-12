@@ -3,7 +3,7 @@ version: '2'
 services:
   bind:
     restart: always
-		build: .
+    build: .
     image: docker-bind:latest
     ports:
     - "53:53/udp"
